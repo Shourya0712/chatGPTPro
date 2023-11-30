@@ -4,8 +4,8 @@ import readline from "readline";
 
 
 const configuration = new Configuration({
-    organization: "org-suUfhy4cx9dwdmIZ7VjJkS0q",
-    apiKey:"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"
+    organization: "enter your organisation key",
+    apiKey:"enter your api key"
 });
 
 const openai = new  OpenAIApi(configuration);
